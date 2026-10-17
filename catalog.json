@@ -1,0 +1,63 @@
+{
+  "brand": "Muebles Demo",
+  "subtitle": "Colección Clásica",
+  "lang": "es",
+  "theme": "graphite",
+  "whatsapp": "573000000000",
+  "whatsappDisplay": "+57 300 000 0000",
+  "message": "Hola, vi el producto {name} ({code}) en el catálogo y quisiera más información.",
+  "minPhotos": 3,
+  "photosDir": "photos",
+  "cover": "sillon-versalles-1",
+  "socials": [
+    { "type": "instagram", "label": "Instagram", "text": "@mueblesdemo", "url": "https://example.com/instagram" },
+    { "type": "facebook", "label": "Facebook ·", "text": "Muebles Demo", "url": "https://example.com/facebook" },
+    { "type": "location", "text": "Ver ubicación", "url": "https://example.com/ubicacion" },
+    { "type": "link", "text": "Todas nuestras redes", "url": "https://example.com/links" }
+  ],
+  "sections": [
+    {
+      "name": "Salas",
+      "cover": "sofa-imperial-1",
+      "products": [
+        { "code": "S01", "name": "Sofá Imperial", "description": "Sofá tallado en madera con tapizado en seda estampada.", "photos": ["sofa-imperial-1", "sofa-imperial-2", "sofa-imperial-3"] },
+        { "code": "S02", "name": "Banca Celeste", "description": "Banca de dos puestos con estructura dorada y tapiz celeste.", "photos": ["banca-celeste-1", "banca-celeste-2", "banca-celeste-3"] },
+        { "code": "S03", "name": "Sillón Versalles", "description": "Sillón con respaldo medallón y tapiz bordado.", "photos": ["sillon-versalles-1", "sillon-versalles-2", "sillon-versalles-3"] },
+        { "code": "S04", "name": "Sillón Borgoña", "description": "Sillón con talla dorada y terciopelo borgoña.", "photos": ["sillon-borgona-1", "sillon-borgona-2", "sillon-borgona-3"] },
+        { "code": "S05", "name": "Sillón Tapiz", "description": "Sillón con tapiz floral y patas curvas talladas.", "photos": ["sillon-tapiz-1", "sillon-tapiz-2", "sillon-tapiz-3"] }
+      ]
+    },
+    {
+      "name": "Cómodas",
+      "cover": "comoda-oriente-1",
+      "products": [
+        { "code": "C01", "name": "Cómoda Marquesa", "description": "Cómoda con cubierta de mármol y apliques en bronce.", "photos": ["comoda-marquesa-1", "comoda-marquesa-2", "comoda-marquesa-3"] },
+        { "code": "C02", "name": "Cómoda Oriente", "description": "Cómoda lacada con paneles decorados y mármol.", "photos": ["comoda-oriente-1", "comoda-oriente-2", "comoda-oriente-3"] }
+      ]
+    },
+    {
+      "name": "Mesas y sillas",
+      "cover": "mesa-taracea-1",
+      "products": [
+        { "code": "M01", "name": "Mesa Taracea", "description": "Mesa auxiliar con incrustaciones de madera.", "photos": ["mesa-taracea-1", "mesa-taracea-2", "mesa-taracea-3"] },
+        { "code": "M02", "name": "Escritorio Rosal", "description": "Escritorio con marquetería floral y detalles en bronce.", "photos": ["escritorio-rosal-1", "escritorio-rosal-2", "escritorio-rosal-3"] },
+        { "code": "M03", "name": "Silla Colonial", "description": "Silla de comedor en nogal con asiento tapizado.", "photos": ["silla-colonial-1", "silla-colonial-2", "silla-colonial-3"] }
+      ]
+    }
+  ],
+  "texts": {
+    "catalog": "Catálogo",
+    "toc": "Tabla de <br>contenido",
+    "page": "Pág",
+    "contact": "Contactar un asesor",
+    "tip": "Toca el globito verde en cualquier foto y escríbenos por WhatsApp",
+    "noticeTitle": "¿Tienes alguna duda?",
+    "notice": "Toca el globito verde que aparece en cada foto y te llevará directo a nuestro WhatsApp con un mensaje sobre ese producto.",
+    "cta": "Consulta medidas, colores y precio por WhatsApp",
+    "photoTitle": "Escribir por WhatsApp sobre {name}",
+    "mainPhoto": "foto principal",
+    "photo": "foto",
+    "generalMessage": "Hola, vi el catálogo de {brand} y quisiera más información.",
+    "closing": "¿Te gustó algún producto?<br>Escríbenos y te asesoramos."
+  }
+}

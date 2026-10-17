@@ -1,0 +1,24 @@
+{
+  "name": "whatsapp-catalog-generator",
+  "version": "1.0.0",
+  "description": "Generate print-ready PDF product catalogs where every photo opens a pre-filled WhatsApp chat.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Kilian Vega",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node src/build.mjs",
+    "pdf": "node src/pdf.mjs",
+    "catalog": "node src/build.mjs && node src/pdf.mjs",
+    "screenshots": "node src/build.mjs && node src/pdf.mjs --screenshots",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@fontsource/montserrat": "^5.3.0",
+    "pdfjs-dist": "^6.4.299",
+    "puppeteer-core": "^25.14.0",
+    "sharp": "^0.35.5"
+  }
+}
