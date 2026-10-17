@@ -4,6 +4,8 @@ Generate print-ready **PDF product catalogs where every photo is a WhatsApp butt
 
 Built for small furniture stores in Colombia that sell through WhatsApp and Instagram. It has been used to deliver real catalogs to several clients; this repository contains the generator with a fictional brand ("Muebles Demo") and public-domain demo photos.
 
+**[Download the sample PDF](https://github.com/cuajada69/whatsapp-catalog-generator/releases/download/v1.0.0/muebles-demo-catalog.pdf)** and tap any photo to try the WhatsApp links.
+
 <p align="center">
   <img src="docs/page-01.jpg" width="24%" alt="Cover">
   <img src="docs/page-03.jpg" width="24%" alt="Section divider">
