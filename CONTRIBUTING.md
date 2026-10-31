@@ -4,7 +4,7 @@ Thanks for your interest! Bug reports, ideas and pull requests are welcome.
 
 ## Setup
 
-Requires Node.js 20+ and Chrome, Edge or Chromium (set `BROWSER_PATH` if it is not auto-detected).
+Requires Node.js 22+ and Chrome, Edge or Chromium (set `BROWSER_PATH` if it is not auto-detected).
 
 ```bash
 npm install

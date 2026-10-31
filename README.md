@@ -24,7 +24,7 @@ Built for small furniture stores in Colombia that sell through WhatsApp and Inst
 
 ## Quick start
 
-Requires Node.js 20+ and Chrome, Edge or Chromium installed.
+Requires Node.js 22+ and Chrome, Edge or Chromium installed.
 
 ```bash
 npm install
