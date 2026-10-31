@@ -30,7 +30,9 @@ if (!executablePath) {
 const links = JSON.parse(fs.readFileSync(path.join(DIST, "links.json"), "utf8"));
 const expected = new Set([links.general, ...links.products.map(p => p.url), ...links.socials]);
 
-const browser = await puppeteer.launch({ executablePath, args: ["--allow-file-access-from-files"] });
+// CI runners (Ubuntu 24.04) block Chrome's sandbox via AppArmor
+const args = ["--allow-file-access-from-files", ...(process.env.CI ? ["--no-sandbox"] : [])];
+const browser = await puppeteer.launch({ executablePath, args });
 try {
   const page = await browser.newPage();
   await page.setViewport({ width: 900, height: 1200 });
