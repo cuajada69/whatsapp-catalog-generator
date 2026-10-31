@@ -1,5 +1,7 @@
 # WhatsApp Catalog Generator
 
+[![CI](https://github.com/cuajada69/whatsapp-catalog-generator/actions/workflows/ci.yml/badge.svg)](https://github.com/cuajada69/whatsapp-catalog-generator/actions/workflows/ci.yml) · **English** · [Español](README.es.md)
+
 Generate print-ready **PDF product catalogs where every photo is a WhatsApp button**: tapping a product opens a chat with the seller and a pre-filled message naming that exact product.
 
 Built for small furniture stores in Colombia that sell through WhatsApp and Instagram. It has been used to deliver real catalogs to several clients; this repository contains the generator with a fictional brand ("Muebles Demo") and public-domain demo photos.
@@ -24,7 +26,7 @@ Built for small furniture stores in Colombia that sell through WhatsApp and Inst
 
 ## Quick start
 
-Requires Node.js 22+ and Chrome, Edge or Chromium installed.
+Requires Node.js 22.13+ and Chrome, Edge or Chromium installed.
 
 ```bash
 npm install
@@ -84,6 +86,10 @@ catalog.json ──► src/build.mjs ──► dist/catalog.html + img/ + fonts/
 - **`api.whatsapp.com/send` instead of `wa.me`**: during testing with real clients, `wa.me` and `whatsapp://` links failed in some mobile PDF viewers.
 - **HTML + CSS print instead of a PDF library**: layout, fonts and responsive behavior come for free, and the same file doubles as a mobile web catalog.
 - **Verify the PDF, not just the HTML**: Chromium can silently drop links (e.g. on overlapping elements), so the final PDF is parsed and its links compared with what was generated.
+
+## Roadmap
+
+Planned work (CLI on npm, more themes, prices, QR codes, CSV import, static site export) is in [ROADMAP.md](ROADMAP.md) and the open issues. Contributions welcome: see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Credits
 
